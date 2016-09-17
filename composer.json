@@ -1,21 +1,18 @@
 {
-  "name": "osk/timecamp-client",
-  "description": "A Timecamp API client",
+  "name": "gisforgirard/php-timecamp-api",
+  "description": "Timecamp API client based in PHP",
   "license": "MIT",
   "authors": [{
-    "name": "osk",
-    "email": "oskosk@gmail.com"
+    "name": "gisforgirard",
+    "email": "gisforgirard@gmail.com"
   }],
   "minimum-stability": "stable",
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "Timecamp\\": ""
     }
   },
   "require": {
     "guzzlehttp/guzzle": "^6.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^4.7"
   }
 }
